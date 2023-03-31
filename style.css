@@ -7,15 +7,14 @@ body {
     height: 200px;
     margin: 10px auto;
     perspective: 800px;
-    transform: translateY(calc(90%));
+    transform: translateY(calc(90%));    
     position: relative;
 }
 
 .single-rb {
-    width: 200px;
+    width: 200px;    
     animation: rotate 15s linear infinite;
     transform-style: preserve-3d;
-
 }
 
 .single-rb img {
